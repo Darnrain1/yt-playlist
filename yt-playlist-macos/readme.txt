@@ -18,7 +18,7 @@ Install the dependencies:
 brew install bash mpv yt-dlp grep gawk jemalloc fx gnu-sed coreutils terminal-notifier ffmpeg fzf socat python3 python-mutagen
 
 Automated install:
-if [ -d /tmp/yt-playlist/ ]; then rm -rf /tmp/yt-playlist/; fi; git clone https://github.com/darnrain/yt-playlist.git /tmp/yt-playlist/; sudo chmod +x /tmp/yt-playlist/yt-playlist-macos/install.sh; /tmp/yt-playlist/yt-playlist-macos/install.sh --main
+if [ -d /tmp/yt-playlist/ ]; then rm -rf /tmp/yt-playlist/; fi; git clone https://github.com/darnrain1/yt-playlist.git /tmp/yt-playlist/; sudo chmod +x /tmp/yt-playlist/yt-playlist-macos/install.sh; /tmp/yt-playlist/yt-playlist-macos/install.sh --main
 
 or 
 
@@ -33,7 +33,7 @@ Uninstall yt-playlist
 ==========================================
 
 Automated uninstall:
-if [ -d /tmp/yt-playlist/ ]; then rm -rf /tmp/yt-playlist/; fi; git clone https://github.com/darnrain/yt-playlist.git /tmp/yt-playlist/; sudo chmod +x /tmp/yt-playlist/yt-playlist-macos/uninstall.sh; /tmp/yt-playlist/yt-playlist-macos/uninstall.sh
+if [ -d /tmp/yt-playlist/ ]; then rm -rf /tmp/yt-playlist/; fi; git clone https://github.com/darnrain1/yt-playlist.git /tmp/yt-playlist/; sudo chmod +x /tmp/yt-playlist/yt-playlist-macos/uninstall.sh; /tmp/yt-playlist/yt-playlist-macos/uninstall.sh
 
 Manual uninstall:
 sudo chmod +x ./uninstall.sh; ./uninstall.sh
