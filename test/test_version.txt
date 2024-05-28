@@ -1,0 +1,3 @@
+Linux v2.71
+macOS v.2.71
+Termux v2.71
