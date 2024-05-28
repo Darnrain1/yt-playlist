@@ -135,7 +135,7 @@ https://gist.github.com/nanotaboada/a90ce99a9bc8ca3c63c0f1dfeb41d41d#file-songs-
 
 MIT License<br>
 
-Copyright (c) 2023 darnrain<br>
+Copyright (c) 2023 darnrain1<br>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
