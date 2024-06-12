@@ -1,8 +1,13 @@
-12-19-2023
+06-12-2024
 
 ================================
 Change log notes
 ================================
+
+Linux v2.72 | macOS v2.72 | Termux v2.72
+Removed 
+
+6) Rolling Stone's 500 Greatest Songs. 
 
 Linux v2.71 | macOS v2.71 | Termux v2.71
 When downloading audio or video from the main menu, yt-playlist will now number all the files, in the playlist order.
