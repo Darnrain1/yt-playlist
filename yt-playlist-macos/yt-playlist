@@ -380,8 +380,8 @@ fi
 11)
 	if command -v less >/dev/null && command -v curl >/dev/null
 	then
-	main_version_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain/yt-playlist/main/main_version.txt -L 2>&1)
-	test_version_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain/yt-playlist/main/test/test_version.txt -L 2>&1)
+	main_version_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain1/yt-playlist/main/main_version.txt -L 2>&1)
+	test_version_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain1/yt-playlist/main/test/test_version.txt -L 2>&1)
 	echo ""
 	echo "Installed version:"
 	echo "$version"
@@ -390,8 +390,8 @@ fi
 	echo "Test versions:"
 	echo "$test_version_check"
 	printf "Download yt-playlist: \n"
-	printf "https://github.com/darnrain/yt-playlist \n"
-	printf "git clone https://github.com/darnrain/yt-playlist.git \n"
+	printf "https://github.com/darnrain1/yt-playlist \n"
+	printf "git clone https://github.com/darnrain1/yt-playlist.git \n"
 	printf " \n"
 	printf "%s " "Press enter to continue"
 	read ans
@@ -411,11 +411,11 @@ notes)
 	then
 	if [ "$answer" != "${answer#[1]}" ]
 	then
-	main_notes_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain/yt-playlist/main/main_change_log.txt -L 2>&1)
+	main_notes_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain1/yt-playlist/main/main_change_log.txt -L 2>&1)
 	echo "$main_notes_check" | less
 	main_menu_function
 	else
-	test_notes_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain/yt-playlist/main/test/test_change_log.txt -L 2>&1)
+	test_notes_check=$(curl --retry 5 --retry-max-time 60 -s https://raw.githubusercontent.com/darnrain1/yt-playlist/main/test/test_change_log.txt -L 2>&1)
 	echo "$test_notes_check" | less
 	main_menu_function
 	fi
