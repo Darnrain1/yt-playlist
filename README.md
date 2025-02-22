@@ -22,7 +22,7 @@
 * Download YouTube Playlists from a Channel.
 * Download up to 1080p 60 FPS videos.
 * Download Audio or Video in real-time as mpv is playing.
-* Download m4a and opus audio files with thumbnails and metadata included.
+* Download m4a and opus audio files with thumbnails, metadata and files are numbered.
 * No mp3 transcoding, native audio format only.
 * A built in Sleep Timer, that slowly lowers volume level and closes mpv player.
 * Automated installation Termux version.
