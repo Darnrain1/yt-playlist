@@ -1,5 +1,6 @@
 Linux yt-playlist.
 
+Troubleshooting:
 To update yt-dlp, please run the dependencies command for Linux.
 
 yt-playlist will work with mpv 0.34.1 but not all of the Audio effects will work.
